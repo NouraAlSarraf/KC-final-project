@@ -1,0 +1,350 @@
+.hobbies{
+    display: flex;
+    justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 1cm;
+}
+.card{
+    transition-duration: 0.5s;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.button{
+    position: fixed;
+    bottom: 10px;
+    left: 6vw;
+    width: 6vw;
+    background-color: white;
+    border-color: black;
+    font-size: 20px;
+    text-align: center;
+    width: 3cm;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.5s;
+    display: flex;
+}
+.button:hover{
+    border-radius: 12px;
+}
+
+.button2{
+    position: fixed;
+    bottom: 10px;
+    left: 15vw;
+    width: 6vw;
+    background-color: white;
+    border-color: black;
+    font-size: 20px;
+    text-align: center;
+    width: 3cm;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.5s;
+    display: flex;
+}
+.button2:hover{
+    border-radius: 12px;
+}
+
+.lets-go-button{
+    text-align: center;
+    width: 3cm;
+    transition-duration: 0.5s;
+    display: flex;
+}
+.lets-go-button:hover{
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.bg{
+    
+    background-repeat: no-repeat;
+    
+}
+
+.question1{
+    margin-top: 2cm;
+    margin-left: 1cm;
+
+    border-radius: 50%;
+    height: 10cm;
+    width: 17cm;
+    
+    font-size: 1cm;
+    color: white;
+
+    background-color: rgb(10, 10, 36) ;
+    
+}
+
+.answer1{
+    display: flex;
+
+    font-size: 0.6cm;
+}
+
+.answer-divs{
+    display: flex;
+    justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 1cm;
+}
+
+.answer-div-1{
+    width: 15cm;
+    height: 10cm;
+    margin-right: 2cm;
+    margin-top: 4cm;
+    color:rgb(10, 10, 36) ;
+    
+}
+
+
+.question2{
+    margin-top: 2cm;
+    margin-right: 1cm;
+
+    border-radius: 50%;
+    height: 10cm;
+    width: 17cm;
+    
+    font-size: 1cm;
+    color: white;
+
+    background-color: rgb(164, 151, 191) ;
+    
+}
+
+.answer2{
+    display: flex;
+
+    font-size: 0.6cm;
+}
+
+
+
+.answer-div-2{
+    width: 15cm;
+    height: 10cm;
+    margin-left: 2cm;
+    margin-top: 5cm;
+    color:rgb(10, 10, 36) ;
+    
+}
+
+.question3{
+    margin-top: 2cm;
+    margin-left: 1cm;
+
+    border-radius: 50%;
+    height: 10cm;
+    width: 17cm;
+    
+    font-size: 1cm;
+    color: white;
+
+    background-color: rgb(238, 229, 199) ;
+    
+}
+
+.answer3{
+    display: flex;
+
+    font-size: 0.6cm;
+}
+
+
+.answer-div-3{
+    width: 15cm;
+    height: 10cm;
+    margin-right: 2cm;
+    margin-top: 4cm;
+    color:rgb(10, 10, 36) ;
+    
+}
+
+
+
+.football-app{
+    margin-top: 2cm;
+    margin-left: 1cm;
+
+    border-radius: 50%;
+    height: 10cm;
+    width: 17cm;
+    
+    font-size: 1cm;
+    color: white;
+
+    background-color: rgb(10, 10, 36) ;
+    
+}
+
+.pic1{
+    display: flex;
+
+    font-size: 0.6cm;
+}
+
+.football-divs{
+    display: flex;
+    justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 1cm;
+}
+
+.pic-div-1{
+    width: 15cm;
+    height: 10cm;
+    margin-right: 2cm;
+    margin-top: 4cm;
+    color:rgb(10, 10, 36) ;
+    
+}
+
+.football-insta{
+    margin-top: 2cm;
+    margin-right: 1cm;
+
+    border-radius: 50%;
+    height: 10cm;
+    width: 17cm;
+    
+    font-size: 1cm;
+    color: white;
+
+    background-color: rgb(164, 151, 191) ;
+    
+}
+
+.pic2{
+    display: flex;
+
+    font-size: 0.6cm;
+}
+
+
+
+.pic-div-2{
+    width: 15cm;
+    height: 10cm;
+    margin-left: 1cm;
+    margin-top: 4cm;
+    color:rgb(10, 10, 36) ;
+    
+}
+
+
+.art{
+    display: flex;
+    
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 1cm;
+}
+
+.art-digital{
+    height: 18cm;
+    width: 18cm;
+    color: white;
+    background-color: #fec89a;
+    text-align: center;
+    margin-left: 0.2cm;
+}
+
+.art-traditional{
+    height: 18cm;
+    width: 18cm;
+    color: white;
+    background-color: #ffb5a7;
+    text-align: center;
+}
+
+
+
+.apps{
+    margin-top: 2cm;
+    margin-left: 1cm;
+
+    border-radius: 50%;
+    height: 10cm;
+    width: 17cm;
+    
+    font-size: 1cm;
+    color: white;
+
+    background-color: rgb(10, 10, 36) ;
+    
+}
+
+.pic-digital1{
+    display: flex;
+
+    font-size: 0.6cm;
+}
+
+.digital-divs{
+    display: flex;
+    justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 1cm;
+}
+
+.answer-div-1{
+    width: 15cm;
+    height: 10cm;
+    margin-right: 2cm;
+
+    color:rgb(10, 10, 36) ;
+    
+}
+
+
+.tools{
+    margin-top: 2cm;
+    margin-right: 1cm;
+
+    border-radius: 50%;
+    height: 10cm;
+    width: 17cm;
+    
+    font-size: 1cm;
+    color: white;
+
+    background-color: rgb(164, 151, 191) ;
+    
+}
+
+.pic-digital2{
+    display: flex;
+
+    font-size: 0.6cm;
+}
+
+
+
+.answer-div-2{
+    width: 6cm;
+    height: 10cm;
+    margin-left: 9cm;
+    margin-top: 1cm;
+    color:rgb(10, 10, 36) ;
+    
+}
+
+.digital-images{
+    display: flex;
+    justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+margin-bottom: 5cm;
+margin-right: 5cm;
+}
+
